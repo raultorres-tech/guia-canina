@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía Canina | Entrenamiento Inteligente</title>
+
+<style>
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0f1c;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background: radial-gradient(circle at top, #22c55e, #0f172a);
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.85;
+}
+
+/* BOTÓN */
+.cta {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 15px 32px;
+    background: #22c55e;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(34,197,94,0.5);
+}
+
+/* NAV */
+nav {
+    background: rgba(15, 23, 42, 0.95);
+    padding: 14px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: #e5e7eb;
+    margin: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #22c55e;
+}
+
+/* SECCIONES */
+section {
+    padding: 80px 20px;
+}
+
+/* CONTENEDOR */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 16px;
+    margin: 20px auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+}
+
+/* PRICE */
+.price {
+    font-size: 32px;
+    color: #22c55e;
+    font-weight: bold;
+}
+
+/* REVIEW */
+.review {
+    background: #0f172a;
+    padding: 18px;
+    border-left: 4px solid #22c55e;
+    margin: 10px auto;
+    max-width: 700px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+/* DIAGRAMA */
+.diagram {
+    background: #0f172a;
+    padding: 25px;
+    border-radius: 14px;
+    color: #38ef7d;
+    font-family: monospace;
+    white-space: pre-line;
+}
+
+/* IMAGENES */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* CONTACTO */
+.contact-box {
+    line-height: 1.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🐾 Guía Canina</h1>
+<p>El sistema inteligente que entrena a tu perro automáticamente</p>
+
+<a href="#precio" class="cta">🚀 Reservar preventa</a>
+</header>
+
+<nav>
+<a href="#problema">Problema</a>
+<a href="#solucion">Solución</a>
+<a href="#como">Funcionamiento</a>
+<a href="#beneficios">Beneficios</a>
+<a href="#galeria">Galería</a>
+<a href="#precio">Precio</a>
+<a href="#opiniones">Opiniones</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<!-- PROBLEMA -->
+<section id="problema">
+<div class="container card">
+<h2>El problema</h2>
+<p>
+Entrenar un perro requiere tiempo, constancia y atención diaria.
+La mayoría de personas no puede mantener ese ritmo.
+</p>
+</div>
+</section>
+
+<!-- SOLUCION -->
+<section id="solucion">
+<div class="container card">
+<h2>La solución</h2>
+<p>
+Guía Canina automatiza el entrenamiento usando sensores, Arduino
+y refuerzo positivo inmediato.
+</p>
+</div>
+</section>
+
+<!-- FUNCIONAMIENTO -->
+<section id="como">
+<div class="container card">
+<h2>Cómo funciona</h2>
+
+<div class="diagram">
+PERRO ENTRA AL ÁREA
+        ↓
+SENSOR DETECTA PRESENCIA
+        ↓
+ARDUINO PROCESA DATOS
+        ↓
+ACTIVACIÓN AUTOMÁTICA
+        ↓
+RECOMPENSA 🦴 + SONIDO 🔊
+</div>
+
+</div>
+</section>
+
+<!-- BENEFICIOS -->
+<section id="beneficios">
+<div class="container">
+<h2>Beneficios</h2>
+
+<div class="grid">
+<div class="card">⚡ Automatización total</div>
+<div class="card">🧠 Aprendizaje rápido</div>
+<div class="card">⏱ Ahorro de tiempo</div>
+<div class="card">🐶 Mejor comportamiento</div>
+</div>
+
+</div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria">
+<div class="container">
+<h2>Galería del proyecto</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="img/proyecto1.jpg">
+<p>Montaje del sistema</p>
+</div>
+
+<div class="card">
+<img src="img/proyecto2.jpg">
+<p>Conexión de Arduino</p>
+</div>
+
+<div class="card">
+<img src="img/proyecto3.jpg">
+<p>Pruebas de sensores</p>
+</div>
+
+<div class="card">
+<img src="img/proyecto4.jpg">
+<p>Área de entrenamiento</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- PRECIO -->
+<section id="precio">
+<div class="container card">
+<h2>Precio de lanzamiento</h2>
+
+<p class="price">$2,000 MXN + envío</p>
+
+<p>Sistema completo listo para usar.</p>
+
+<ul style="list-style:none; padding:0;">
+<li>✔ Sistema ensamblado</li>
+<li>✔ Calibración incluida</li>
+<li>✔ Manual de uso</li>
+</ul>
+
+<a href="#contacto" class="cta">💳 Comprar ahora</a>
+</div>
+</section>
+
+<!-- OPINIONES -->
+<section id="opiniones">
+<div class="container">
+<h2>Opiniones</h2>
+
+<div class="review">★★★★★ “Mi perro aprendió rapidísimo.”</div>
+<div class="review">★★★★★ “Muy práctico y automático.”</div>
+<div class="review">★★★★☆ ""el jill esta bien ricolino alv
+     saquen vicio socios”</div>
+
+</div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+<div class="container card contact-box">
+<h2>Contacto</h2>
+
+<p>¿Interesado en adquirir Guía Canina o solicitar información?</p>
+
+<p><b>Correo:</b> raultorres0807@gmial.com</p>
+<p><b>Teléfono:</b> 664 369 1287</p>
+
+<p style="opacity:0.8;">
+Atención para ventas, preventa y cotizaciones del sistema.
+</p>
+
+<a href="mailto:raultorres0807@gmial.com" class="cta">📧 Enviar correo</a>
+
+</div>
+</section>
+
+</body>
+</html>
